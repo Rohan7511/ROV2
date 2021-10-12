@@ -10,7 +10,7 @@ class MyClient(discord.Client):
         print('Logged on as', self.user)
 
     async def on_message(self, message):
-        word_list = [@server YHD-1230974]
+        word_list = []
 
         # don't respond to ourselves
         if message.author == self.user:
